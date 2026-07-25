@@ -1,0 +1,21 @@
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0;background:#f7fafc;color:#0f172a}
+.container{max-width:900px;margin:28px auto;padding:20px;background:#fff;border-radius:10px;box-shadow:0 6px 30px rgba(2,6,23,0.06)}
+header h1{text-align:center;margin:0 0 12px;font-size:1.6rem}
+.input-row{display:flex;gap:8px;margin-bottom:12px}
+.input-row input{flex:1;padding:10px;border:1px solid #e6e9ef;border-radius:8px}
+.input-row button{padding:10px 14px;border-radius:8px;border:0;background:#2563eb;color:#fff}
+.controls{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:8px}
+.filters button{background:transparent;border:1px solid transparent;padding:6px 10px;border-radius:8px;cursor:pointer}
+.filters button.active{background:#eef2ff;color:#2563eb;border-color:#dbeafe}
+.actions button{margin-left:8px}
+.todo-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+.todo-item{display:flex;align-items:flex-start;gap:12px;padding:10px;border-radius:8px;border:1px solid #f0f2f5}
+.todo-item .content{flex:1}
+.todo-item.completed .text{opacity:0.6;text-decoration:line-through}
+.editable .text{cursor:pointer}
+.meta{margin-top:6px;display:flex;gap:8px;align-items:center}
+.item-actions button{background:transparent;border:0;color:#dc2626;cursor:pointer}
+.empty{text-align:center;color:#6b7280;padding:18px}
+footer{margin-top:14px;color:#6b7280;font-size:0.95rem;text-align:center}

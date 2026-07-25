@@ -1,0 +1,6 @@
+VENDOR-LOCK
+node_modules
+dist
+.env
+.DS_Store
+server/node_modules
